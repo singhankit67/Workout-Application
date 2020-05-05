@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:layout_centerInParent="true"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="3dp"
+    android:layout_marginBottom="2dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@android:color/transparent"
+    android:id="@+id/cardViewnib"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/LLforBackground"
+
+
+
+
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LLforBackground1"
+            >
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/ExerciseImage"
+
+
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|end"
+
+                    android:gravity="end"
+                    android:layout_marginTop="12dp"
+                    android:textStyle="bold"
+                    android:id="@+id/ExerciseName"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    app:fontFamily="@font/poppins_light" />
+                <TextView
+                    android:layout_gravity="bottom|end"
+                    android:gravity="bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:id="@+id/timeDefined"
+
+                    android:fontFamily="@font/poppins_light"
+
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

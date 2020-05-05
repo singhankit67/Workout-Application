@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workoutbuddy">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="LCO Homeworkout"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".RandomActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="RandomMode"
+       />
+        <activity android:name=".DaywiseMode"
+            android:label="DaywiseMode"
+            android:parentActivityName=".MainActivity"
+
+            />
+
+        <activity android:name=".Onexerciseclick"
+            android:label="Activity"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".RandomActivity">
+
+        </activity>
+        <activity android:name=".ArmsActivity"
+            android:parentActivityName=".DaywiseMode"
+            android:label="Arms"
+     />
+        <activity android:name=".ShoulderActivity"
+            android:label="Shoulder"
+            android:parentActivityName=".DaywiseMode"
+            />
+        <activity android:name=".BackActivity"
+            android:parentActivityName=".DaywiseMode"
+            android:label="Back"
+            />
+
+        <activity android:name=".ChestActivity"
+            android:parentActivityName=".DaywiseMode"
+            android:label="Chest" />
+
+        <activity android:name=".LegsActivity"
+            android:label="Legs"
+            android:parentActivityName=".DaywiseMode" />
+    </application>
+
+</manifest>
