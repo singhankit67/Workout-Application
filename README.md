@@ -6,15 +6,22 @@ A basic workout application with two modes i.e Random mode and Daywise mode.In r
 ## Snapshots
 
 ### Splash screen
-<img src="Images/Screenshot_20200505-144138[1].jpg" width="200" height="400" >
+<img src="Images/Screenshot_20200505-144138.jpg" width="200" height="400" >
 
 
 ### Main screen
+<img src="Images/Screenshot_20200505-144147.jpg" width="200" height="400" >
 
 
 ### Random mode
+<img src="Images/Screenshot_20200505-144234.jpg" width="200" height="400" >  <img src="Images/Screenshot_20200505-144306.jpg" width="200" height="400" >  <img src="Images/Screenshot_20200505-144322.jpg" width="200" height="400" >
+
+#### 2nd image displays the draggable to change position feature whereas the 3rd image displays swipe to delete feature
 
 
 
 
 ### Daywise mode
+<img src="Images/Screenshot_20200505-144218.jpg" width="200" height="400" > <img src="Images/Screenshot_20200505-144218.jpg" width="200" height="400" >
+
+#### After clicking on screen(1st image) this screen appears(2nd image)
