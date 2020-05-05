@@ -22,6 +22,6 @@ A basic workout application with two modes i.e Random mode and Daywise mode.In r
 
 
 ### Daywise mode
-<img src="Images/Screenshot_20200505-144218.jpg" width="200" height="400" > <img src="Images/Screenshot_20200505-194841.jpg" width="200" height="400" >
+<img src="Images/Screenshot_20200505-144218.jpg" width="200" height="400" > <img src="Images/Screenshot_20200505-194841[1].jpg" width="200" height="400" >
 
 #### After clicking on screen(1st image) this screen appears(2nd image)
