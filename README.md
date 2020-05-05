@@ -14,7 +14,7 @@ A basic workout application with two modes i.e Random mode and Daywise mode.In r
 
 
 ### Random mode
-<img src="Images/Screenshot_20200505-144234.jpg" width="200" height="400" >  <img src="Images/Screenshot_20200505-144306.jpg" width="200" height="400" >  <img src="Images/Screenshot_20200505-144322.jpg" width="200" height="400" >
+<img src="Images/Screenshot_20200505-144234.jpg" width="200" height="400" >  <img src="Images/Screenshot_20200505-194841.jpg" width="200" height="400" >  <img src="Images/Screenshot_20200505-144322.jpg" width="200" height="400" >
 
 #### 2nd image displays the draggable to change position feature whereas the 3rd image displays swipe to delete feature
 
